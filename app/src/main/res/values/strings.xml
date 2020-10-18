@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SawoSDKDemo</string>r
+    <string name="login_textview">
+        Welcome to Sawo SDK Demo
+    </string>
+    <string name="login_button">Start Login Process</string>
+    <string name="login_success">Login success here is the result payload</string>
+</resources>
