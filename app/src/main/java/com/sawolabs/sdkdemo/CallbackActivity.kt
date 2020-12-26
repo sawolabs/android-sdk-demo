@@ -2,9 +2,11 @@ package com.sawolabs.sdkdemo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.TextView
 import com.sawolabs.androidsdk.LOGIN_SUCCESS_MESSAGE
 import org.json.JSONObject
+import kotlin.reflect.typeOf
 
 class CallbackActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
