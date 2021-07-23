@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6F3F3"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CallbackActivity">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="318dp"
+        android:layout_height="83dp"
+        android:text="You have logged in successfully"
+        android:textColor="#101010"
+        android:textSize="20sp" />
+</LinearLayout>

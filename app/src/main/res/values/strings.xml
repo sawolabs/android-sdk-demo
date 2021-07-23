@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">sample-app</string>
+    <string name="str1">
+    <ul>
+        <li><i>first</i> item</li>
+        <li>item 2</li>
+    </ul>
+</string>
+</resources>

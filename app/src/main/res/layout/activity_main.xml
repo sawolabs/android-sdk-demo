@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="564dp"
+            android:layout_height="1027dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/green" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="1524dp"
+            android:layout_height="900dp"
+            android:layout_marginTop="700dp"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/black" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="348dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="104dp"
+            android:text="Product Headline"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="146dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginEnd="300dp"
+            android:background="#EC971F"
+            android:text="Call to action"
+            android:textColor="#050505"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <com.omega_r.libs.OmegaCenterIconButton
+            android:id="@+id/button9"
+            android:layout_width="156dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="69dp"
+            android:layout_marginEnd="118dp"
+            android:backgroundTint="#EC971F"
+            android:drawableRight="@drawable/ic_baseline_login_24"
+            android:text="Login"
+            android:textSize="14sp"
+            app:drawableSize="40dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="262dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginEnd="24dp"
+            android:background="#FFFFFF"
+
+
+            app:cardBackgroundColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="6sp"
+                    android:paddingTop="6sp"
+                    android:paddingBottom="3sp"
+                    android:text="Feature One"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="247dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6sp"
+                    android:paddingTop="6sp"
+                    android:text="Some quick example text to build on the card title and make up the bulk of the card's content"
+                    android:textColor="#050505"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="145dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="#EC971F"
+                    android:backgroundTint="#EC971F"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingBottom="2dp"
+                    android:text="Go somewhere"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView9"
+            android:layout_width="262dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginEnd="24dp"
+            android:background="#FFFFFF"
+
+
+            app:cardBackgroundColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="6sp"
+                    android:paddingTop="6sp"
+                    android:paddingBottom="3sp"
+                    android:text="Feature Two"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="247dp"
+                    android:layout_height="104dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6sp"
+                    android:paddingTop="6sp"
+                    android:text="Some quick example text to build on the card title and make up the bulk of the card's content"
+                    android:textColor="#050505"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="145dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="#EC971F"
+                    android:backgroundTint="#EC971F"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingBottom="2dp"
+                    android:text="Go somewhere"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="262dp"
+            android:layout_height="210dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginEnd="24dp"
+            android:background="#FFFFFF"
+
+
+            app:cardBackgroundColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="6sp"
+                    android:paddingTop="6sp"
+                    android:paddingBottom="3sp"
+                    android:text="Feature Three"
+                    android:textColor="#050505"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="244dp"
+                    android:layout_height="105dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:paddingLeft="6sp"
+                    android:paddingTop="6sp"
+                    android:text="Some quick example text to build on the card title and make up the bulk of the card's content"
+                    android:textColor="#050505"
+                    android:textSize="18sp"
+                    android:textStyle="normal" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="145dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="13dp"
+                    android:background="#EC971F"
+                    android:backgroundTint="#EC971F"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="2dp"
+                    android:paddingBottom="2dp"
+                    android:text="Go somewhere"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="212dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="900dp"
+            android:layout_marginEnd="231dp"
+            android:text="Support"
+            android:textColor="#FBF4F4"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView"
+            tools:text="Support" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="257dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="940dp"
+            android:layout_marginEnd="185dp"
+            android:text="To get in touch with us write to us at"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="258dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="1000dp"
+            android:layout_marginEnd="185dp"
+            android:text="contact@product.com"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="272dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="1050dp"
+            android:layout_marginEnd="172dp"
+            android:text="Or speak to our customer representative"
+            android:textColor="#FAF6F6"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="80dp"
+            android:backgroundTint="#FF9800"
+            android:text="chatbot"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="145dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="230dp"
+            android:text="Quick Links"
+            android:textColor="#EFE3E3"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="179dp"
+            android:layout_height="27dp"
+            android:layout_marginTop="750dp"
+            android:layout_marginEnd="200dp"
+            android:text="Follow Us"
+            android:textColor="#F4EBEB"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4" />
+
+        <LinearLayout
+            android:layout_width="261dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="790dp"
+            android:layout_marginEnd="120dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="@+id/imageView4">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic__" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic__2" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic__3" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic__4" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/ic__5" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1250dp"
+            android:layout_marginEnd="300dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="FAQs"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1280dp"
+            android:layout_marginEnd="300dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Pricing"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1310dp"
+            android:layout_marginEnd="300dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Docs"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1340dp"
+            android:layout_marginEnd="300dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Resources"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1250dp"
+            android:layout_marginEnd="110dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Careers"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1280dp"
+            android:layout_marginEnd="110dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Community"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1310dp"
+            android:layout_marginEnd="110dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Privacy Policy"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="150dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="1340dp"
+            android:layout_marginEnd="110dp"
+            android:drawableStart="@drawable/oval"
+            android:drawablePadding="4dp"
+            android:paddingTop="7sp"
+            android:text="Sponsorship Program"
+            android:textColor="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
