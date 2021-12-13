@@ -32,8 +32,8 @@ Button but;
             public void onClick(View v) {
                 new Sawo(
                         MainActivity.this,
-                        "d703a9a3-51ef-403b-a3e5-04ca450f3cd5", // your api key,
-                        "60c79cd2e5859f64414f77d889HZXkm0XLGxca8sXVFnjvXq" // your api key secret
+                        "f9b742de-bb6e-4c33-91f5-c8a62852e0c2", // your api key
+                        "61b71d2ed364bdfb9b049af0gwONZmYmm9avP6IAj1cmmqC0" // your api key secret
                 ).login(
                         "email", // can be one of 'email' or 'phone_number_sms'
                         CallbackActivity.class.getName()  // Callback class name
